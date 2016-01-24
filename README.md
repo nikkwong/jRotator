@@ -28,7 +28,9 @@ The markup should look something like so:
 </div>
 ```
 
-No restrictions, just make sure the following styles are applied:
+**NOTE** that the total width of children elements (```.outerWidth(true)```) must be one child element width *larger* than the width of the parent (```.outerWidth()```), to ensure there are no 'gaps' in your rotator. If the parent width is too long, the children elements will not rotate and instead center themselves in the parent div.
+
+The ```.notransition``` class should be added to your site as is. Feel free to modify the names of the ```.parent``` and ```.child``` classes, just make sure these styles apply to those elements.
 
 ```
 .parent {
@@ -53,7 +55,7 @@ No restrictions, just make sure the following styles are applied:
 
 ## Configuration
 
-#translationSpeed
+### translationSpeed
 
 Speed of the jRotator. Lower means slower. Default is ```100```. Override with:
 
