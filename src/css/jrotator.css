@@ -1,0 +1,18 @@
+.jRotator {
+    position: relative;
+    overflow: hidden;
+}
+
+.jRotator > * {
+    position: absolute;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.notransition {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -o-transition: none !important;
+    -ms-transition: none !important;
+    transition: none !important;
+}
