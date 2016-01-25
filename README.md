@@ -3,6 +3,9 @@ jRotator — a jQuery rotator plugin.
 
 A simple jQuery rotator with smart defaults. This rotator uses CSS ```translation``` & ```transform``` to rotate elements across the screen—making it performant for mobile devices.
 
+**Demo** 
+http://plnkr.co/edit/KP08gkxHzxRXPEmzEu6M?p=preview
+
 ## Usage
 
 ```
